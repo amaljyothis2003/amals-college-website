@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Home Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img src="COLLEGE LOGO.png" class="logo1" alt="College Logo">Amal's College</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#student-life">Student Life</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#alumni">Alumni</a> <!-- Updated href -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a> <!-- Updated href -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Login.html">Login</a>
+                </li>
+                <!-- Add search form here -->
+                <li class="nav-item">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2 search-input" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </nav>    
+    
+
+    <!-- Hero Section with Gradient Background -->
+    <div class="hero-container">
+        <video src="BANNER.mp4" autoplay muted loop class="video"></video>
+        <div class="hero">
+            <div class="lefthero">
+                <img src="COLLEGE LOGO.png" class="logo2" alt="College Logo">
+            </div>
+            <div class="text">
+                <h1>WELCOME TO AMAL'S COLLEGE</h1>
+                <h3>"Your gateway to quality education"</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About Us</h2>
+                    <p>Welcome to AMAL'S College, a premier institution dedicated to fostering academic excellence, innovation, and leadership. Established in 1985, ABC College has grown to become a beacon of higher education, known for its rigorous academic programs and vibrant campus life.
+                        Our campus is spread across 20 hectares (approximately 50 acres) of lush greenery, providing a serene and inspiring environment for students to learn and grow. Located in the heart of the city, ABC College offers a perfect blend of modern infrastructure and natural beauty. Key features of our campus include:
+                        <ul>
+                          <li><b>Classrooms and Laboratories:</b> Equipped with the latest technology to enhance learning and research.</li>
+                          <li><b>Extensive Library:</b> Home to thousands of books, journals, and digital resources, offering students a vast pool of knowledge.</li>
+                          <li><b>Sports Complex:</b> Includes a gymnasium, swimming pool, tennis and basketball courts, and fields for various sports.</li>
+                          <li><b>On-Campus Housing:</b> Comfortable and secure accommodation with all necessary amenities.</li>
+                          <li><b>Dining Facilities:</b> Multiple cafeterias and dining halls serving a variety of cuisines to cater to diverse tastes.</li>
+                        </ul>
+                      </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="Collegepic.jpg" alt="College Campus" class="about-image"> <!-- Added image -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2>Our Courses</h2>
+            <div class="row">
+                <!-- Bachelor's Degree -->
+                <div class="col-md-4 course-box">
+                    <img src="Bachelor.jpeg" alt="Bachelor's Degree" class="course-image"> <!-- Image for Bachelor's Degree -->
+                    <h3>Bachelor's Degree</h3>
+                    <p>Explore our undergraduate programs:</p>
+                    <ul>
+                        <li>Bachelor of Science in Computer Science</li>
+                        <li>Bachelor of Arts in English Literature</li>
+                        <li>Bachelor of Business Administration</li>
+                        <li>Bachelor of Engineering in Electrical</li>
+                    </ul>
+                </div>
+
+                <!-- Master's Degree -->
+                <div class="col-md-4 course-box">
+                    <img src="Master.jpg" alt="Master's Degree" class="course-image"> <!-- Image for Master's Degree -->
+                    <h3>Master's Degree</h3>
+                    <p>Discover our graduate programs:</p>
+                    <ul>
+                        <li>Master of Science in Data Science</li>
+                        <li>Master of Business Administration</li>
+                        <li>Master of Arts in History</li>
+                        <li>Master of Engineering in Mechanical</li>
+                    </ul>
+                </div>
+
+                <!-- Ph.D. Programs -->
+                <div class="col-md-4 course-box">
+                    <img src="PHD.jpeg" alt="Ph.D. Programs" class="course-image"> <!-- Image for Ph.D. Programs -->
+                    <h3>Ph.D. Programs</h3>
+                    <p>Learn about our doctoral offerings:</p>
+                    <ul>
+                        <li>Ph.D. in Computer Science</li>
+                        <li>Ph.D. in Economics</li>
+                        <li>Ph.D. in Chemical Engineering</li>
+                        <li>Ph.D. in Educational Leadership</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Life Section -->
+    <section id="student-life" class="student-life">
+        <div class="container">
+            <h2>Student Life</h2>
+            <p>At AMAL'S College, we believe that a fulfilling student life is essential to a well-rounded education. Our vibrant campus offers a range of activities and organizations designed to enhance personal development and provide enriching experiences outside the classroom. Some highlights of student life include:</p>
+            <div class="row">
+                <!-- Clubs and Organizations -->
+                <div class="col-md-4 student-life-box">
+                    <img src="CLUBS.jpeg" alt="Clubs and Organizations" class="student-life-image"> <!-- Image for Clubs and Organizations -->
+                    <h3>Clubs and Organizations</h3>
+                    <p>Join one of our many student-led clubs, from academic and professional organizations to cultural and recreational groups.</p>
+                </div>
+
+                <!-- Sports and Fitness -->
+                <div class="col-md-4 student-life-box">
+                    <img src="Sports.jpeg" alt="Sports and Fitness" class="student-life-image"> <!-- Image for Sports and Fitness -->
+                    <h3>Sports and Fitness</h3>
+                    <p>Participate in intramural sports or take advantage of our state-of-the-art fitness center.</p>
+                </div>
+
+                <!-- Events and Activities -->
+                <div class="col-md-4 student-life-box">
+                    <img src="Events.jpeg" alt="Events and Activities" class="student-life-image"> <!-- Image for Events and Activities -->
+                    <h3>Events and Activities</h3>
+                    <p>Engage in campus events such as concerts, theater performances, and guest lectures.</p>
+                </div>
+
+                <!-- Student Government -->
+                <div class="col-md-4 student-life-box">
+                    <img src="STDGVT.jpeg" alt="Student Government" class="student-life-image"> <!-- Image for Student Government -->
+                    <h3>Student Government</h3>
+                    <p>Get involved in student governance and contribute to shaping campus life.</p>
+                </div>
+
+                <!-- Volunteering and Service -->
+                <div class="col-md-4 student-life-box">
+                    <img src="Volunteer.jpeg" alt="Volunteering and Service" class="student-life-image"> <!-- Image for Volunteering and Service -->
+                    <h3>Volunteering and Service</h3>
+                    <p>Contribute to the community through various volunteer opportunities and service projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Principal's Note Section -->
+<section id="principal-note" class="principal-note">
+    <div class="container">
+        <h2>Principal's Note</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="Principal.jpg" alt="Principal" class="principal-image"> <!-- Placeholder for Principal's Image -->
+            </div>
+            <div class="col-md-8">
+                <div class="principal-info">
+                    <h3>Dr. Amal Jyothi S</h3> <!-- Principal's Name -->
+                    <p><b>Qualification:</b> Ph.D. in Computer Science</p> <!-- Principal's Qualification -->
+                </div>
+                <p class="principal-note-text">Welcome to AMAL'S College. As the Principal, I am proud to lead an institution that is committed to excellence in education and holistic development. Our dedicated faculty, state-of-the-art facilities, and vibrant campus life are designed to foster the academic and personal growth of our students. We invite you to explore the myriad opportunities that AMAL'S College has to offer and become a part of our dynamic learning community.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Alumni Section -->
+<section id="alumni" class="alumni">
+    <div class="container">
+        <h2>Our Alumni</h2>
+        <div class="row">
+            <!-- Alumni Member 1 -->
+            <div class="col-md-4 alumni-box">
+                <img src="Shoun.jpeg" alt="Alumni Member 1" class="alumni-image">
+                <h3>Shoun Chacko Salaji</h3>
+                <p><b>Qualification:</b> Bachelor of Science in Computer Science</p>
+                <p><b>Current Designation:</b> Senior Software Engineer at TechCorp</p>
+                <p><b>Views on College:</b> "Amal's College provided me with a strong foundation in computer science and invaluable industry connections. The faculty were exceptional and the campus life was vibrant and engaging."</p>
+            </div>
+
+            <!-- Alumni Member 2 -->
+            <div class="col-md-4 alumni-box">
+                <img src="Bharat.png" alt="Alumni Member 2" class="alumni-image">
+                <h3>Bharat Harshan</h3>
+                <p><b>Qualification:</b> Master of Business Administration</p>
+                <p><b>Current Designation:</b> Marketing Director at Global Inc.</p>
+                <p><b>Views on College:</b> "The MBA program at Amal's College was rigorous and comprehensive. The diverse range of courses and networking opportunities helped me excel in my career."</p>
+            </div>
+
+            <!-- Alumni Member 3 -->
+            <div class="col-md-4 alumni-box">
+                <img src="Arun.jpg" alt="Alumni Member 3" class="alumni-image">
+                <h3>Arun M P</h3>
+                <p><b>Qualification:</b> Ph.D. in Economics</p>
+                <p><b>Current Designation:</b> CEO of Commute</p>
+                <p><b>Views on College:</b> "My time at Amal's College was transformative. The research facilities were top-notch and the academic environment was stimulating. I am grateful for the support and mentorship I received."</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3">
+        <div class="container text-center">
+            <div class="row">
+                <div id="contact" class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <address>Amal’s College
+                        Hosur Road
+                        Banglore, ST 78901
+                        India</address>
+                    <p>Email: amal'scollege@college.com</p>
+                    <p>Website: <a href="main.html" target="_blank">www.amalscollege.com</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <a href="#" target="_blank"><img src="Facebook.png" alt="Facebook" class="logo"></a>
+                    <a href="#" target="_blank"><img src="Instagram_logo.png" alt="Instagram" class="logo"></a>
+                    <a href="#" target="_blank"><img src="WhatsApp.png" alt="WhatsApp" class="logo"></a>
+                    <a href="#" target="_blank"><img src="LinkedIN.webp" alt="LinkedIn" class="logo"></a>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#student-life">Student Life</a></li>
+                        <li><a href="#alumni">Alumni</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="Login.html">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <span class="text-muted">© 2024 College Name. All rights reserved.</span>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
