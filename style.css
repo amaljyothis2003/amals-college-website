@@ -50,6 +50,45 @@
   margin-top: 70px;
 }
 
+/* SVG Background Section */
+.svg-background {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+/* Carousel Section */
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* SVG Background Section */
+.svg-background {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.svg-background svg {
+  width: 100%;
+  height: 100%;
+}
+
 .about {
   padding: 50px 0;
   background: #eae4e4;
@@ -259,4 +298,8 @@
 .logo {
   width: 30px;
   vertical-align: middle;
+}
+#map{
+  width: 350px;
+  height: auto;
 }

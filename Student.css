@@ -156,3 +156,8 @@
     width: 30px;
     vertical-align: middle;
   }
+  
+  #map{
+    width: 350px;
+    height: auto;
+  }

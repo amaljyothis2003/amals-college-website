@@ -50,6 +50,64 @@
   margin-top: 70px;
 }
 
+/* Media Queries */
+
+/* Tablet devices */
+@media (max-width: 768px) {
+  .hero-container {
+    height: 80vh; /* Adjust height for tablets */
+  }
+
+  .hero {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .lefthero {
+    float: none;
+    text-align: center; /* Center logo on smaller screens */
+    margin: 0 auto; /* Center logo horizontally */
+    margin-bottom: 20px; /* Space between logo and text */
+  }
+
+  .logo2 {
+    width: 200px; /* Adjust logo size */
+  }
+
+  .text {
+    margin-top: 30px; /* Adjust margin for tablet */
+    font-size: 1.5rem; /* Adjust font size for better readability */
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 576px) {
+  .hero-container {
+    height: 60vh; /* Adjust height for mobile */
+  }
+
+  .hero {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .lefthero {
+    float: none;
+    text-align: center; /* Center logo on mobile */
+    margin: 0 auto; /* Center logo horizontally */
+    margin-bottom: 15px; /* Space between logo and text */
+  }
+
+  .logo2 {
+    width: 150px; /* Adjust logo size */
+  }
+
+  .text {
+    margin-top: 20px; /* Adjust margin for mobile */
+    font-size: 1.2rem; /* Adjust font size for mobile readability */
+  }
+}
+
 /*body*/
 
 /* Role Selection Section */
@@ -69,6 +127,7 @@
   margin-bottom: 40px;
 }
 
+/* Default styles */
 .role-buttons {
   display: flex;
   justify-content: center;
@@ -87,6 +146,39 @@
   padding: 20px;
   width: 200px;
   transition: all 0.3s ease;
+}
+
+/* Media Queries */
+
+/* Tablet devices */
+@media (max-width: 768px) {
+  .role-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .role-btn {
+    width: 80%;
+    max-width: 300px;
+    margin-bottom: 20px; /* Space between buttons */
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 576px) {
+  .role-btn {
+    width: 100%;
+    max-width: 300px;
+    padding: 15px;
+  }
+
+  .role-icon {
+    width: 100px; /* Adjust icon size */
+  }
+
+  .text {
+    margin-top: 20px; /* Adjust margin for mobile */
+  }
 }
 
 .role-btn:hover {
@@ -150,4 +242,9 @@
 .logo {
   width: 30px;
   vertical-align: middle;
+}
+
+#map{
+  width: 350px;
+  height: auto;
 }
