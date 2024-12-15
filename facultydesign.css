@@ -1,0 +1,103 @@
+.main{
+    background:ghostwhite;
+    width:100%;
+    height:100%;
+}
+.upper{
+    background:#ff0000;
+    width: 100%;
+    height:170px;
+    padding-left: 15px;
+    padding-top: 25px;
+}
+.you{
+    margin-left: 300px;
+    color: azure;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 75px;
+}
+.select{
+    background: blueviolet;
+    height: 470px;
+    width: 340px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 430px;
+    border: 100px;
+    border-radius: 20px;
+    border-color: black solid;
+    box-shadow: 1px 1px 10px 1px gray;
+    cursor: pointer;
+    color: azure;
+}
+.select:hover{
+    background-color: rgb(51, 0, 255);
+    color:yellow;
+    border: yellow solid;
+}
+.img{
+    width: 170px;
+    margin-left: 83px;
+    margin-top: 20px;
+}
+.designation{
+    margin-left: 85px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 27px;
+}
+.idpass{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    margin-left:50px;
+    margin-top:10px;
+}
+.enterbox{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    width: 240px;
+    height: 25px;
+    border-radius: 10px;
+    border: yellow solid;
+}
+.submit{
+    background: rgb(255, 0, 0);
+    color: white;
+    border:#ffff solid;
+    border-radius: 50px;
+    margin-top: 10px;
+    height: 37px;
+    width: 72px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 135px;
+    box-shadow: 1px 1px 5px 1px gray;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.submit:hover {
+    background-color: rgb(77, 255, 0);
+    color:rgb(0, 0, 0);
+    border: yellow solid;
+}
+.down{
+    color:azure;
+    background:#ff0000;
+    width: 100%;
+    height:350px;
+    margin-top:520px;
+    padding-left: 15px;
+    padding-top: 25px;
+}
+.contact{
+    margin-left: 470px;
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.address{
+    margin-left: 100px;
+    float:left;
+}
+.mailweb{
+    margin-left: 860px;
+    margin-top: 49px;
+}
