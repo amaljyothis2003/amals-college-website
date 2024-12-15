@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Initialize map at a default location
     var map = L.map('map').setView([51.505, -0.09], 13);
 
     // Add OpenStreetMap tiles
@@ -7,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function() {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
-    // Hide the map initially
     document.getElementById('map').style.display = 'none';
 
     document.getElementById('getLocationBtn').addEventListener('click', function() {
@@ -22,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Move the map view to the user's location
                 map.setView([lat, lon], 13);
 
-                // Add a marker at the user's location
+                //Marker
                 L.marker([lat, lon]).addTo(map)
                     .bindPopup('Latitude: ' + lat + '<br>Longitude: ' + lon)
                     .openPopup();
