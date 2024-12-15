@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amal's College Geolocation Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="GeoLoc.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img src="COLLEGE LOGO.png" class="logo1" alt="College Logo">Amal's College</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="main.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="main.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="main.html">Courses</a></li>
+                <li class="nav-item"><a class="nav-link" href="main.html">Student Life</a></li>
+                <li class="nav-item"><a class="nav-link" href="main.html">Alumni</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="Login.html">Login</a></li>
+                <li class="nav-item">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2 search-input" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Gradient Background -->
+    <div class="hero-container">
+        <video src="BANNER.mp4" autoplay muted loop class="video"></video>
+        <div class="hero">
+            <div class="lefthero">
+                <img src="COLLEGE LOGO.png" class="logo2" alt="College Logo">
+            </div>
+            <div class="text">
+                <h1>AMAL'S COLLEGE</h1>
+                <h2>GEO-LOCATION</h2>
+                <h4>Please scroll down</h4>
+            </div>
+        </div>
+    </div>
+
+     <!-- SVG Background Section -->
+     <section class="svg-background">
+        <!-- Example SVG background -->
+        <img class="d-block w-100" src="svgmain.svg" alt="First slide">
+            <defs>
+                <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:rgba(255,0,150,1);stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:rgba(0,204,255,1);stop-opacity:1" />
+                </linearGradient>
+            </defs>
+            <path d="M0,0 L1200,0 L1200,400 L0,400 Z" fill="url(#gradient1)" />
+        </img>
+    </section>
+
+    <!-- Button to get geolocation -->
+    <div class="body">
+        <button id="getLocationBtn" class="btn glassy-btn">
+            <i class="fas fa-location-arrow"></i> Click here to get the geolocation
+        </button>    
+
+        <!-- Geolocation Map Section -->
+        <div id="map" style="display: none; height: 600px; width: 50%;"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3">
+        <div class="container text-center">
+            <hr>
+            <span class="text-muted">© 2024 College Name. All rights reserved.</span>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <!-- Custom JS -->
+    <script src="GeoLoc.js"></script>
+</body>
+</html>
