@@ -1,0 +1,75 @@
+<!ELEMENT college (departments, courses, students, faculty, staff, library, exams)>
+<!ELEMENT departments (department+)>
+<!ELEMENT department (DeptCode, DeptName, HOD, OfficeLocation, Ph_no, Email)>
+<!ELEMENT DeptCode (#PCDATA)>
+<!ELEMENT DeptName (#PCDATA)>
+<!ELEMENT HOD (#PCDATA)>
+<!ELEMENT OfficeLocation (#PCDATA)>
+<!ELEMENT Ph_no (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+
+<!ELEMENT courses (course+)>
+<!ELEMENT course (CourseCode, CourseName, Department, Credits, Semester, Description, Prerequisites)>
+<!ELEMENT CourseCode (#PCDATA)>
+<!ELEMENT CourseName (#PCDATA)>
+<!ELEMENT Department (#PCDATA)>
+<!ELEMENT Credits (#PCDATA)>
+<!ELEMENT Semester (#PCDATA)>
+<!ELEMENT Description (#PCDATA)>
+<!ELEMENT Prerequisites (#PCDATA)>
+
+<!ELEMENT students (student+)>
+<!ELEMENT student (StudentID, StudentName, DOB, Address, Ph_no, Email, Guardian, Guardian_Ph_no, Course)>
+<!ELEMENT StudentID (#PCDATA)>
+<!ELEMENT StudentName (#PCDATA)>
+<!ELEMENT DOB (#PCDATA)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT Ph_no (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Guardian (#PCDATA)>
+<!ELEMENT Guardian_Ph_no (#PCDATA)>
+<!ELEMENT Course (#PCDATA)>
+
+<!ELEMENT faculty (facultyMember+)>
+<!ELEMENT facultyMember (FacultyID, Name, DOB, Address, Ph_No, Email, Department, Qualification)>
+<!ELEMENT FacultyID (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT DOB (#PCDATA)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT Ph_No (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Department (#PCDATA)>
+<!ELEMENT Qualification (#PCDATA)>
+
+<!ELEMENT staff (staffMember+)>
+<!ELEMENT staffMember (StaffID, Name, DOB, Address, Ph_No, Email)>
+<!ELEMENT StaffID (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT DOB (#PCDATA)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT Ph_No (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+
+<!ELEMENT library (book+)>
+<!ELEMENT book (BookID, Title, Author, ISBN, Publisher, PublicationDate, Edition, Category, Quantity, Location)>
+<!ELEMENT BookID (#PCDATA)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!ELEMENT Publisher (#PCDATA)>
+<!ELEMENT PublicationDate (#PCDATA)>
+<!ELEMENT Edition (#PCDATA)>
+<!ELEMENT Category (#PCDATA)>
+<!ELEMENT Quantity (#PCDATA)>
+<!ELEMENT Location (#PCDATA)>
+
+<!ELEMENT exams (exam+)>
+<!ELEMENT exam (ExamID, CourseCode, Date, Time, Duration, Location, MaxMarks, FacultyInCharge)>
+<!ELEMENT ExamID (#PCDATA)>
+<!ELEMENT CourseCode (#PCDATA)>
+<!ELEMENT Date (#PCDATA)>
+<!ELEMENT Time (#PCDATA)>
+<!ELEMENT Duration (#PCDATA)>
+<!ELEMENT Location (#PCDATA)>
+<!ELEMENT MaxMarks (#PCDATA)>
+<!ELEMENT FacultyInCharge (#PCDATA)>
