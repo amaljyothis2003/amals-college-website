@@ -1,0 +1,230 @@
+
+.container{
+     background:ghostwhite;
+     width:100%;
+     height:100%;
+}
+.upper{
+    background:#ff0000;
+    width: 100%;
+    height:150px;
+    padding-left: 15px;
+    padding-top: 25px;
+}
+}
+.logo{
+    width:100px;
+    float: left;
+    margin-bottom: 10px;
+}
+.login{
+    width: 100px;
+    height: 81px;
+    margin-bottom: -67px;
+    margin-left: 1080px;
+    color: azure;
+}
+.loginimg{
+    width: 75px;
+    margin-bottom: -21px;
+}
+.Login{
+    margin-left: 16px;
+}
+.Imgcontainer{
+    height: 66px;
+    width: 200px;
+    background: rgb(255, 0, 0);
+    align-content: center;
+    padding-left: 10px;
+    border-radius: 5px;
+    float:left;
+}
+/* img */
+.contimg{
+    height: 100%;
+    width:100%;
+}
+.welcome{
+    /* background: blue; */
+    margin-left: 300px;
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button{   
+    margin-left: 30px;
+    /* background: blue; */
+    float:left;
+    margin-top: -19px;
+}
+.buttons{
+    background: blueviolet;
+    color: white;
+    border:#ffff solid;
+    border-radius: 50px;
+    margin-top: 25px;
+    height: 31px;
+    width: 112px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 39px;
+    box-shadow: 1px 1px 5px 1px gray;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.buttons:hover {
+    background-color: rgb(51, 0, 255);
+    color:yellow;
+    border: yellow solid;
+}
+.box1{
+    background: ghostwhite;
+    height: 475px;
+    width: 1084px;
+    box-shadow: black;
+    margin-left: 60px;
+    border:solid;
+    box-shadow: 1px 1px 10px 1px gray;
+}
+.campus1name{
+    align-content: center;
+    padding-left: 392px;
+    color: #ffff;
+    background:red;
+    width: 692px;
+    height: 100px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.campus1{
+    width: 500px;
+    margin-top: 9px;
+    margin-left: 9px;
+    float:left;
+}
+.campusdes{
+    margin-left:550px;
+    margin-right: 50px;
+}
+.box2{
+    background: ghostwhite;
+    height: 580px;
+    width: 1084px;
+    box-shadow: black;
+    margin-left: 60px;
+    border:solid;
+    box-shadow: 1px 1px 10px 1px gray;
+}
+.acadesc{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.acaprogs{
+    background: blueviolet;
+    height: 376px;
+    width: 211px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 48px;
+    border: 100px;
+    border-radius: 20px;
+    border-color: black solid;
+    box-shadow: 1px 1px 10px 1px gray;
+    cursor: pointer;
+}
+.acaprogs:hover {
+    background-color: rgb(51, 0, 255);
+    color:yellow;
+    border: yellow solid;
+}
+.courses{
+    color:rgb(255, 255, 255);
+    margin:10px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    margin-top: -40px;
+    padding: 23px;
+}
+.course{
+    color:rgb(255, 255, 255);
+    margin:10px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    margin-top: -20px;
+    padding: 9px;
+}
+.artimg{
+    width: 211px;
+    height: 140px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+}
+.box3{
+    background:ghostwhite;
+    height: 282px;
+    width: 348px;
+    margin-left: 60px;
+    border:solid;
+    float:left;
+    box-shadow: 1px 1px 10px 1px gray;
+}
+.missiondes{
+    margin:25px;
+}
+.mission{
+    align-content: center;
+    padding-left: 85px;
+    color: #ffff;
+    background:red;
+    width: 263px;
+    height: 100px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box4{
+    background: ghostwhite;
+    height: 282px;
+    width: 724px;
+    box-shadow: black;
+    margin-left: 8px;
+    margin-top: -18px;
+    border: solid;
+    float:left;
+    box-shadow: 1px 1px 10px 1px gray;
+}
+.why{
+    align-content: center;
+    padding-left: 85px;
+    color: #ffff;
+    background:red;
+    width: 639px;
+    height: 100px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.whydes{
+    margin:25px; 
+}
+.down{
+    color:azure;
+    background:#ff0000;
+    width: 100%;
+    height:350px;
+    margin-top:262px;
+    padding-left: 15px;
+    padding-top: 25px;
+}
+.contact{
+    margin-left: 470px;
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.address{
+    margin-left: 100px;
+    float:left;
+}
+.mailweb{
+    margin-left: 860px;
+    margin-top: 49px;
+}
